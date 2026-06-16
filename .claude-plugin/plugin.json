@@ -1,0 +1,12 @@
+{
+  "name": "newrelic",
+  "description": "New Relic observability intelligence for Claude Code. Investigate APM performance, analyze cloud costs, debug Kubernetes, write NRQL queries, and respond to alerts — all from your terminal using New Relic telemetry data.",
+  "version": "1.0.0",
+  "author": {
+    "name": "New Relic",
+    "url": "https://newrelic.com"
+  },
+  "homepage": "https://newrelic.com/",
+  "repository": "https://github.com/newrelic/newrelic-claude-plugin",
+  "license": "Apache-2.0"
+}
