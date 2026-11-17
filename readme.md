@@ -54,7 +54,7 @@ README.md
 ## Metadata
 
 - **Name:** `newrelic`
-- **Version:** `1.0.0`
+- **Version:** `1.1.0`
 - **Author:** New Relic
 - **License:** `Apache-2.0`
 - **Homepage:** https://newrelic.com/
