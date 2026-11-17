@@ -6,6 +6,7 @@ New Relic observability intelligence for Claude Code. Investigate APM performanc
 
 - **`apm`** — Application Performance Monitoring and transaction analysis. Use when investigating application errors, slow response times, throughput issues, or transaction-level problems.
 - **`finops`** — Cloud FinOps cost analysis across AWS, Azure, and GCP. Use when investigating cloud spend, cost anomalies, spikes, or budgets. Requires Cloud Cost Intelligence data ingested into New Relic.
+- **`kafka`** — Kafka questions and root-cause investigation using New Relic telemetry. Use for consumer lag, under-replicated or offline partitions, broker health, topic throughput, or a Kafka alert. Covers nri-kafka, OpenTelemetry, AWS MSK, and Confluent Cloud data.
 - **`kubernetes`** — Kubernetes diagnosis and debugging using New Relic telemetry. Use for pod crashes, CrashLoopBackOff, OOMKills, evictions, scheduling failures, node pressure, and scaling issues. Requires `nri-kubernetes` / kube-state-metrics data.
 - **`newrelic-mcp`** — New Relic MCP server workflows and NRQL-driven investigations. Use to query logs, metrics, traces, alerts, incidents, dashboards, or infrastructure.
 
@@ -38,6 +39,9 @@ skills/
     references/         # ERROR_ANALYSIS.md, PERFORMANCE_METRICS.md
   finops/
     SKILL.md
+  kafka/
+    SKILL.md
+    references/         # queries.md, failure-modes.md
   kubernetes/
     SKILL.md
   newrelic-mcp/
@@ -50,7 +54,7 @@ README.md
 ## Metadata
 
 - **Name:** `newrelic`
-- **Version:** `1.0.0`
+- **Version:** `1.1.0`
 - **Author:** New Relic
 - **License:** `Apache-2.0`
 - **Homepage:** https://newrelic.com/
