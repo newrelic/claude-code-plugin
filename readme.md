@@ -45,7 +45,7 @@ skills/
   kubernetes/
     SKILL.md
   newrelic-mcp/
-    skill.md
+    SKILL.md
     references/         # nrql-patterns.md
 NOTICE
 README.md
@@ -54,7 +54,7 @@ README.md
 ## Metadata
 
 - **Name:** `newrelic`
-- **Version:** `1.1.0`
+- **Version:** `1.1.1`
 - **Author:** New Relic
 - **License:** `Apache-2.0`
 - **Homepage:** https://newrelic.com/
